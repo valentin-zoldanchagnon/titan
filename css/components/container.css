@@ -1,0 +1,12 @@
+.container {
+  width: 900px; /* Largeur fixe pour le moment */
+  margin: 0 auto; /* Centre le bloc horizontalement */
+}
+
+/* Optionnel : pour que ce soit joli sur mobile */
+@media (max-width: 960px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
